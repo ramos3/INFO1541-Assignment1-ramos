@@ -20,4 +20,10 @@ class CommissionEmployeeTest
 
         assertEquals(15, emp.getSales());
     }
+
+    @Test
+    public void testHolidayBonusShouldReturnZero()
+    {
+        assertEquals(0, emp.holidayBonus());
+    }
 }
