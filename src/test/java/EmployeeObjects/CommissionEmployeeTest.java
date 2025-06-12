@@ -26,4 +26,15 @@ class CommissionEmployeeTest
     {
         assertEquals(0, emp.holidayBonus());
     }
+
+    @Test
+    public void testAnnualRaise()
+    {
+        //adds .002 to rate field of emp
+        //call twice then use getter
+        emp.annualRaise();
+        emp.annualRaise();
+
+        assertEquals(.0305, emp.getRate());
+    }
 }
