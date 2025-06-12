@@ -10,6 +10,7 @@ import EmployeeBlueprints.EmployeeType;
  * @author lhartman2
  * @version 1.0.1
  */
+@EmployeeObjects.EmployeeType(type = "Salary")
 public final class SalaryEmployee extends Employee
 {
 

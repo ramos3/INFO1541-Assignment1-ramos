@@ -8,6 +8,7 @@ import EmployeeBlueprints.EmployeeType;
  * @author lhartman2
  * @version 1.0.1
  */
+@EmployeeObjects.EmployeeType(type = "Commission")
 public final class CommissionEmployee extends Employee {
     
     private double sales;

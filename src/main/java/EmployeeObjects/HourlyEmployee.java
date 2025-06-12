@@ -9,6 +9,7 @@ import EmployeeBlueprints.EmployeeType;
  * @version 1.0.1
  */
 
+@EmployeeObjects.EmployeeType(type = "Hourly")
 public final class HourlyEmployee extends Employee {
     private double wage;
     private double hoursWorked;
