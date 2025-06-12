@@ -10,7 +10,8 @@ import EmployeeBlueprints.EmployeeType;
  */
 @EmployeeObjects.EmployeeType(type = "Commission")
 public final class CommissionEmployee extends Employee {
-    
+
+    @PayRate(type = "Commission")
     private double sales;
     private double rate;
 

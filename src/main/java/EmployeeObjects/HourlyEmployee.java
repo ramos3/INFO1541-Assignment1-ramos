@@ -11,6 +11,8 @@ import EmployeeBlueprints.EmployeeType;
 
 @EmployeeObjects.EmployeeType(type = "Hourly")
 public final class HourlyEmployee extends Employee {
+
+    @PayRate(type = "Hourly")
     private double wage;
     private double hoursWorked;
 

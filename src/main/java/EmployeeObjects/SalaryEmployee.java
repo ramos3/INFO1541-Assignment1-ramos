@@ -14,6 +14,7 @@ import EmployeeBlueprints.EmployeeType;
 public final class SalaryEmployee extends Employee
 {
 
+    @PayRate(type = "Salary")
     private double salary;
 
     /**
