@@ -37,6 +37,7 @@ public final class SalaryEmployee extends Employee
      *
      * @return double for the weekly pay
      */
+    @WeeklyPayCalculator
     @Override
     public double calculateWeeklyPay()
     {

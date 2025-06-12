@@ -70,6 +70,7 @@ public final class CommissionEmployee extends Employee {
      * Calculates the employee's pay. rate * sales
      * @return a double for the pay
      */
+    @WeeklyPayCalculator
     @Override
     public double calculateWeeklyPay()
     {

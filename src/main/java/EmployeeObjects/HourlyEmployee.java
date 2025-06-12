@@ -70,6 +70,7 @@ public final class HourlyEmployee extends Employee {
      *
      * @return a double for the weekly pay
      */
+    @WeeklyPayCalculator
     @Override
     public double calculateWeeklyPay()
     {
